@@ -2,15 +2,19 @@
 ---
 
 @import "{{ site.theme }}";
-@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+Mono:wght@300;600');
 
-body{
-  padding:80px 0px;
+body {
+  padding:50px 0px;
   margin:0px;
   background-color: #101010;
   text-align: center;
-  font-family: "Ubuntu Mono";
-  color: #bbb;
+  font-family: "Noto Sans Mono";
+  font-weight: 300;
+  font-size: 14px;
+  text-align: left;
+  line-height: 1.4;
+  color: #acacac;
 }
 
 h3, h4, h5, h6 {
@@ -20,15 +24,12 @@ h3, h4, h5, h6 {
 .wrap {
   margin: 0px auto;
   width: 800px;
-  text-align: left;
-  font-size: 12pt;
-  line-height: 1.2;
 }
 
 .container {
   float:right;
   width:560px;
-  padding: 20px;
+  padding: 15px 20px;
 }
 .footer {
   text-align:center;
@@ -55,9 +56,8 @@ h3, h4, h5, h6 {
    padding: 10px 0 0 0;
    color: #eee;
    letter-spacing: 2px;
-   font-weight: 400;
    margin: 0;
-   font-size: 18pt;
+   font-size: 18px;
    text-transform: uppercase;
    text-align: center;
 }
@@ -66,14 +66,13 @@ h3, h4, h5, h6 {
    display: block;
    padding: 10px 20px;
    letter-spacing: 2px;
-   font-size: 14pt;
+   font-size: 16px;
    text-align: right;
    text-transform: uppercase;
 }
 
 .sidebar a:hover {
    color: #fff;
-   text-decoration: underline;
 }
 
 .sidebar a:hover > img {
@@ -86,7 +85,6 @@ h3, h4, h5, h6 {
 
 .menu-item {
    color: #cda73e;
-   text-decoration: underline;
 }
 
 .social a {
@@ -99,7 +97,7 @@ h3, h4, h5, h6 {
 .container a {
   color: #bbb;
   text-decoration: underline;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .container a:hover {
@@ -127,9 +125,9 @@ figure {
 }
 
 figcaption {
-  text-align: center;
-  font-size: 11pt;
-  margin: 10px 0 10px 0;
+  width: 90%;
+  font-size: 13px;
+  margin: 10px auto 10px auto;
 }
 
 @media screen and (max-width: 800px) {
