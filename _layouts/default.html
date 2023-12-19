@@ -16,8 +16,10 @@
   <body>
       <div class="wrap">
           <div class="sidebar">
-              <img src="{{  site.photo | relative_url}}" width=200 alt="Logo" />
-              <h1><a href="/index" title="Hello">{{ site.my_name }}</a></h1>
+              <a href="/index" title="Hello">
+                  <img src="{{  site.photo | relative_url}}" alt="Portrait" />
+                  <h1>{{ site.my_name }}</h1>
+              </a>
               <div class="social">
                   <a href="{{ site.github }}" title="github" target="_blank"><i class="fa fa-github"></i></a>
                   <a href="{{ site.twitter }}" title="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
@@ -25,9 +27,9 @@
                   <a href="{{ site.linkedin }}" title="linked-in" target="_blank"><i class="fa fa-linkedin"></i></a>
                   <!--<a href="" title="{{ site.orcid }}" target="_blank"><i class="fa fa-orcid"></i></a>-->
               </div>
-              <a href="/software" title="Software">Software</a>
-              <a href="/music" title="Music">Music</a>
-              <a href="/science-tech-art" title="Science, Technology & Art">Science<br>Technology<br>& Art</a>
+              <a href="/software" class="menu-item" title="Software">Software</a>
+              <a href="/music" class="menu-item" title="Music">Music</a>
+              <a href="/science-tech-art" class="menu-item" title="Science, Technology & Art">Science<br>Technology<br>& Art</a>
           </div>
           <div class="container">
               {{ content }}

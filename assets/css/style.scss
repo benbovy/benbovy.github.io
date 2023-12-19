@@ -35,29 +35,25 @@ h3, h4, h5, h6 {
   clear:both;
 }
 
-.sidebar{
+.sidebar {
   overflow: hidden;
   float: left;
   text-align:right;
-  width:200px;
+  width: 200px;
 }
 
-.sidebar > img {
+.sidebar img {
   display: block;
+  width: 188px;
+  margin-top: 2px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.sidebar > h1{
-    margin: 0 0;
-}
-
-.sidebar > h1 > a{
+.sidebar h1{
    display: block;
    padding: 10px 0 0 0;
    color: #eee;
-   text-decoration: none;
-   font-family: "Ubuntu Mono";
    letter-spacing: 2px;
    font-weight: 400;
    margin: 0;
@@ -66,28 +62,31 @@ h3, h4, h5, h6 {
    text-align: center;
 }
 
-.sidebar > h1 > a:hover{
-   text-decoration: underline;
-}
-
-.sidebar > a{
+.sidebar a {
    display: block;
    padding: 10px 20px;
-   color: #cda73e;
-   text-decoration: none;
    letter-spacing: 2px;
    font-size: 14pt;
    text-align: right;
    text-transform: uppercase;
+}
+
+.sidebar a:hover {
+   color: #fff;
    text-decoration: underline;
 }
 
-.sidebar a:hover{
-   color: #fff;
+.sidebar a:hover > img {
+  filter: brightness(150%);
 }
 
 .social {
   text-align: center;
+}
+
+.menu-item {
+   color: #cda73e;
+   text-decoration: underline;
 }
 
 .social a {
