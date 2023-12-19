@@ -1,0 +1,6 @@
+<figure>
+    <img src="{{ site.baseurl }}/assets/img/{{ include.src }}" alt="{{ include.alt }}">
+    {% if include.caption %}
+        <figcaption>{{ include.caption | strip | markdownify }}</figcaption>
+    {% endif %}
+</figure>

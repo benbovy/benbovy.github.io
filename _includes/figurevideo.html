@@ -1,0 +1,6 @@
+<figure>
+    {% include youtube_player.html id=include.id %}
+    {% if include.caption %}
+        <figcaption>{{ include.caption | strip | markdownify }}</figcaption>
+    {% endif %}
+</figure>

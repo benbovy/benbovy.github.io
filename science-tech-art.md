@@ -15,26 +15,20 @@ innovation and education.
 
 Some of my experimental works below.
 
-{% figure caption:"Sonification of a river meandering simulation using
+{% include figurevideo.html caption="Sonification of a river meandering simulation using
 [meanderpy](https://github.com/zsylvester/meanderpy),
 [ipycanvas](https://github.com/jupyter-widgets-contrib/ipycanvas) and
-[ipytone](https://github.com/geigr/ipytone)." %}
-{% include youtube_player.html id="ygIFh0SkkU4" %}
-{% endfigure %}
+[ipytone](https://github.com/geigr/ipytone)." id="ygIFh0SkkU4" %}
 
-{% figure caption:"Roscoe 'Folds' album cover made with
+{% include figureimg.html caption="Roscoe 'Folds' album cover made with
 [Fastscape](https://github.com/fastscape-lem) and Blender (Typography by
-[Matthieu Litt](https://matthieulitt.com/))." %}
-![Roscoe Folds album cover](/assets/img/roscoe_folds.png)
-{% endfigure %}
+[Matthieu Litt](https://matthieulitt.com/))." src="roscoe_folds.png" alt="Roscoe
+'Folds' album cover" %}
 
-{% figure caption:"Roscoe '1To6' animation clip made with
+{% include figurevideo.html caption="Roscoe '1To6' animation clip made with
 [Fastscape](https://github.com/fastscape-lem) and
-[Matplotlib](https://matplotlib.org/)." %}
-{% include youtube_player.html id="zXk3kkH4KY0" %}
-{% endfigure %}
+[Matplotlib](https://matplotlib.org/)." id="zXk3kkH4KY0" %}
 
-{% figure caption:"Yukon river digital elevation model processed with Python,
-[Fastscape](https://github.com/fastscape-lem) and Blender." %}
-![Yukon River](/assets/img/yukon_river.png)
-{% endfigure %}
+{% include figureimg.html caption="Yukon river digital elevation model
+processed with Python, [Fastscape](https://github.com/fastscape-lem) and
+Blender." src="yukon_river.png" alt="Yukon river" %}

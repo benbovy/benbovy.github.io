@@ -10,7 +10,7 @@ linkedin: "https://be.linkedin.com/in/benoit-bovy"
 # Build settings
 theme: jekyll-theme-minimal
 plugins:
-  - jekyll-figure
+  # - jekyll-figure
 
 exclude:
 #   - .sass-cache/
