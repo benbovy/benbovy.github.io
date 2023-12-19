@@ -40,7 +40,6 @@ h3, h4, h5, h6 {
   float: left;
   text-align:right;
   width:200px;
-  padding:0 0 20px 0;
 }
 
 .sidebar > img {
@@ -151,6 +150,7 @@ figcaption {
     width: 80%;
     position: relative;
     float: none;
+    clear: both;
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
