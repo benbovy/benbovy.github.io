@@ -1,0 +1,25 @@
+domain: benbovy.github.io
+my_name: Benoît Bovy
+url: "https://benbovy.github.io"
+photo: /assets/img/me.jpg
+github: "https://github.com/benbovy"
+twitter: "https://twitter.com/benbovy"
+mastodon: "https://fosstodon.org/@benbovy"
+linkedin: "https://be.linkedin.com/in/benoit-bovy"
+
+# Build settings
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-figure
+
+exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
