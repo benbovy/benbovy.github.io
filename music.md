@@ -17,3 +17,8 @@ venues and music festivals in Belgium and abroad.
 
 I occasionally performed with other bands. The 1st band I joined was called
 ?Blueshift.
+
+&nbsp;
+
+{% include figureimg.html caption="Photo by Kmeron" src="roscoe_bsf_kmeron.jpg"
+alt="Roscoe live" %}
